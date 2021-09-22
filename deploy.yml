@@ -21,6 +21,5 @@ spec:
     spec:
       containers:
       - image: buddhi82/intern:latest
-        imagePullPolicy: Always
         name: intern
-      restartPolicy: Always
+    
