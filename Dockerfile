@@ -1,4 +1,4 @@
-FROM centos:latest
+FROM buddhi82/intern:latest
 
 RUN yum install httpd -y
 
