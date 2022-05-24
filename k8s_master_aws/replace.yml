@@ -1,8 +1,0 @@
-- hosts: localhost
-  tasks:
-  - shell: chmod 400 ./abkey.pem
-
-
-- hosts: tag_Name_kubemaster
-  roles:
-  - role: replace
